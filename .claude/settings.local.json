@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -m pip --version)",
+      "Bash(whereis py *)",
+      "Bash(py -3.12 --version)",
+      "Bash(py -3.12 -m PyInstaller --version)",
+      "Read(//d/Users/桌面/**)",
+      "Bash(py -3.12 -m PyInstaller --onefile --console --name \"印前调整\" \"印前调整.py\")"
+    ]
+  }
+}

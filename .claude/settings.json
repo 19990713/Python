@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(where py *)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/Administrator/AppData/Local/Programs/Python//**)",
+      "Bash(py --version)",
+      "Bash(py -m pip --version)",
+      "Bash(py -m pip install -r requirements.txt)",
+      "Bash(py -3.12 -m PyInstaller --onefile --console --name \"印特自动录入\" entry.py --clean)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Administrator\\Desktop"
+    ]
+  }
+}
